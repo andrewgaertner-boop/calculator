@@ -137,8 +137,3 @@ The build **fails** if coverage drops below 90%.
 | Factory  | `OperationFactory` in `app/operations.py`                     |
 | Memento  | `CalculatorMemento` / `Caretaker` in `app/calculator_memento.py` |
 | Observer | `LoggingObserver`, `AutoSaveObserver` in `app/calculator.py`   |
-
-
-## License
-
-Educational project for course use.
