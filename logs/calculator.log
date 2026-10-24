@@ -1,0 +1,55 @@
+2026-10-24 01:30:09 | INFO     | calculator.core | Calculator initialized
+2026-10-24 01:30:38 | INFO     | calculator.repl | Application exited by user
+2026-10-24 01:41:22 | INFO     | calculator.core | Calculator initialized
+2026-10-24 01:41:22 | INFO     | calculator.core | Calculation: add(10.0, 20.0) = 30.0
+2026-10-24 01:41:22 | INFO     | calculator.history | Saved 1 history entries to history/calculation_history.csv
+2026-10-24 01:41:22 | DEBUG    | calculator.core | Auto-saved history after add(10.0, 20.0) = 30.0
+2026-10-24 01:41:22 | INFO     | calculator.repl | Application exited by user
+2026-10-24 05:50:16 | INFO     | calculator.core | Calculator initialized
+2026-10-24 05:50:16 | INFO     | calculator.core | Calculation: add(5.0, 15.0) = 20.0
+2026-10-24 05:50:16 | INFO     | calculator.history | Saved 1 history entries to history/calculation_history.csv
+2026-10-24 05:50:16 | DEBUG    | calculator.core | Auto-saved history after add(5.0, 15.0) = 20.0
+2026-10-24 05:50:16 | INFO     | calculator.repl | Application exited by user
+2026-10-24 05:52:52 | INFO     | calculator.core | Calculator initialized
+2026-10-24 05:52:52 | INFO     | calculator.core | Calculation: add(10.0, 5.0) = 15.0
+2026-10-24 05:52:52 | INFO     | calculator.history | Saved 1 history entries to history/calculation_history.csv
+2026-10-24 05:52:52 | DEBUG    | calculator.core | Auto-saved history after add(10.0, 5.0) = 15.0
+2026-10-24 05:52:52 | INFO     | calculator.core | Calculation: subtract(20.0, 8.0) = 12.0
+2026-10-24 05:52:52 | INFO     | calculator.history | Saved 2 history entries to history/calculation_history.csv
+2026-10-24 05:52:52 | DEBUG    | calculator.core | Auto-saved history after subtract(20.0, 8.0) = 12.0
+2026-10-24 05:52:52 | INFO     | calculator.core | Calculation: multiply(6.0, 7.0) = 42.0
+2026-10-24 05:52:52 | INFO     | calculator.history | Saved 3 history entries to history/calculation_history.csv
+2026-10-24 05:52:52 | DEBUG    | calculator.core | Auto-saved history after multiply(6.0, 7.0) = 42.0
+2026-10-24 05:52:52 | INFO     | calculator.core | Calculation: divide(20.0, 4.0) = 5.0
+2026-10-24 05:52:52 | INFO     | calculator.history | Saved 4 history entries to history/calculation_history.csv
+2026-10-24 05:52:52 | DEBUG    | calculator.core | Auto-saved history after divide(20.0, 4.0) = 5.0
+2026-10-24 05:52:52 | INFO     | calculator.core | Calculation: power(2.0, 8.0) = 256.0
+2026-10-24 05:52:52 | INFO     | calculator.history | Saved 5 history entries to history/calculation_history.csv
+2026-10-24 05:52:52 | DEBUG    | calculator.core | Auto-saved history after power(2.0, 8.0) = 256.0
+2026-10-24 05:52:52 | INFO     | calculator.core | Calculation: root(27.0, 3.0) = 3.0
+2026-10-24 05:52:52 | INFO     | calculator.history | Saved 6 history entries to history/calculation_history.csv
+2026-10-24 05:52:52 | DEBUG    | calculator.core | Auto-saved history after root(27.0, 3.0) = 3.0
+2026-10-24 05:52:52 | INFO     | calculator.core | Calculation: modulus(10.0, 3.0) = 1.0
+2026-10-24 05:52:52 | INFO     | calculator.history | Saved 7 history entries to history/calculation_history.csv
+2026-10-24 05:52:52 | DEBUG    | calculator.core | Auto-saved history after modulus(10.0, 3.0) = 1.0
+2026-10-24 05:52:52 | INFO     | calculator.core | Calculation: int_divide(10.0, 3.0) = 3.0
+2026-10-24 05:52:52 | INFO     | calculator.history | Saved 8 history entries to history/calculation_history.csv
+2026-10-24 05:52:52 | DEBUG    | calculator.core | Auto-saved history after int_divide(10.0, 3.0) = 3.0
+2026-10-24 05:52:52 | INFO     | calculator.core | Calculation: percent(25.0, 50.0) = 50.0
+2026-10-24 05:52:52 | INFO     | calculator.history | Saved 9 history entries to history/calculation_history.csv
+2026-10-24 05:52:52 | DEBUG    | calculator.core | Auto-saved history after percent(25.0, 50.0) = 50.0
+2026-10-24 05:52:52 | INFO     | calculator.core | Calculation: abs_diff(15.0, 25.0) = 10.0
+2026-10-24 05:52:52 | INFO     | calculator.history | Saved 10 history entries to history/calculation_history.csv
+2026-10-24 05:52:52 | DEBUG    | calculator.core | Auto-saved history after abs_diff(15.0, 25.0) = 10.0
+2026-10-24 05:52:52 | INFO     | calculator.core | Undo performed; history size=9
+2026-10-24 05:52:52 | INFO     | calculator.core | Redo performed; history size=10
+2026-10-24 05:52:52 | INFO     | calculator.history | Saved 10 history entries to history/calculation_history.csv
+2026-10-24 05:52:52 | INFO     | calculator.core | History cleared
+2026-10-24 05:52:52 | INFO     | calculator.history | Loaded 10 history entries from history/calculation_history.csv
+2026-10-24 05:52:52 | ERROR    | calculator.repl | Calculator error: Division by zero is not allowed
+2026-10-24 05:52:52 | ERROR    | calculator.repl | Calculator error: Even root of a negative number is not defined
+2026-10-24 05:52:52 | WARNING  | calculator.repl | Validation error: Unknown command 'invalid_op'. Type 'help' to see available commands.
+2026-10-24 05:52:52 | WARNING  | calculator.repl | Validation error: Invalid number: 'abc'
+2026-10-24 05:52:52 | WARNING  | calculator.repl | Validation error: Expected exactly 2 operands, got 1. Usage: <operation> <number1> <number2>
+2026-10-24 05:52:52 | WARNING  | calculator.repl | Validation error: Expected exactly 2 operands, got 3. Usage: <operation> <number1> <number2>
+2026-10-24 05:52:52 | INFO     | calculator.repl | Application exited by user
